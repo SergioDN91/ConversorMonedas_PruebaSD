@@ -1,0 +1,93 @@
+body {
+    background-color: #1e293b; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+.card {
+    background-color: #475569; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-title {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-sizing: border-box; 
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: #06b6d4; 
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0891b2;
+}
+
+
+#resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#error-msg {
+    color: #f87171;
+    font-size: 0.9rem;
+}
+
+
+.chart-container {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px; 
+}
